@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <script>##REPORT_JS##</script>
-    </head>
-    <body>
-        <mutation-test-report-app title-postfix="##REPORT_TITLE##"></mutation-test-report-app>
-        
-        <script>
+<head>
+    <script>##REPORT_JS##</script>
+</head>
+<body>
+    <p style="font-family: 'Courier New', Courier, monospace; padding: 0px; margin: 10px;">Report date ##REPORT_DATE##</p>
+    <mutation-test-report-app title-postfix="##REPORT_TITLE##"></mutation-test-report-app>
+
+    <script>
             document.querySelector('mutation-test-report-app').report =
                 ##REPORT_JSON##;
-        </script>
-    </body>
+    </script>
+</body>
 </html>

@@ -1,0 +1,14 @@
+{
+  "sourcePath": ".\\sample",
+  "solutionName": "dotnet-stryker-sample.sln",
+  "projectsToTest": [
+    {
+      "csprojName": "Stryker.WebApi.csproj",
+      "testDir": "Stryker.WebApi.Test"
+    },
+    {
+      "csprojName": "Stryker.Domain.csproj",
+      "testDir": "Stryker.Domain.Test"
+    }
+  ]
+}
